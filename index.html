@@ -1,0 +1,144 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+
+    <div id="calendar-container">
+        <div class="calendar">
+
+            <div class="header">
+                <div class="time-col"></div>
+                <div>Mon</div>
+                <div>Tue</div>
+                <div>Wed</div>
+                <div>Thu</div>
+                <div>Fri</div>
+                <div>Sat</div>
+                <div>Sun</div>
+            </div>
+
+            <div class="body">
+                <div class="time-col">
+                    <div class="hour">8 AM</div>
+                    <div class="hour">9 AM</div>
+                    <div class="hour">10 AM</div>
+                    <div class="hour">11 AM</div>
+                    <div class="hour">12 PM</div>
+                    <div class="hour">1 PM</div>
+                    <div class="hour">2 PM</div>
+                    <div class="hour">3 PM</div>
+                    <div class="hour">4 PM</div>
+                    <div class="hour">5 PM</div>
+                </div>
+
+                <!-- Days -->
+                <div class="day">
+                    <div class="event" style="top: 60px; height: 80px;">
+                        CIS 4480
+                    </div>
+                </div>
+
+                <div class="day"></div>
+                <div class="day">
+                    <div class="event alt" style="top: 140px; height: 120px;">
+                        CIS 5190
+                    </div>
+                </div>
+                <div class="day"></div>
+                <div class="day"></div>
+                <div class="day"></div>
+                <div class="day"></div>
+            </div>
+
+        </div>
+    </div>
+
+    <div id="workload-container">
+        <div class="quantity-container">
+            <p>Difficulty</p>
+            <div class="circle-bar difficulty">
+                <svg viewBox="0 0 100 100">
+                    <circle class="bg" cx="50" cy="50" r="40" />
+                    <circle class="progress" cx="50" cy="50" r="40" />
+                </svg>
+                <p>3.5</p>
+            </div>
+
+
+        </div>
+        <div class="quantity-container">
+            <p>Workload</p>
+            <div class="circle-bar workload">
+                <svg viewBox="0 0 100 100">
+                    <circle class="bg" cx="50" cy="50" r="40" />
+                    <circle class="progress" cx="50" cy="50" r="40" />
+                </svg>
+                <p>2.0</p>
+            </div>
+        </div>
+        <div class="quantity-container">
+            <p>Quality</p>
+            <div class="circle-bar quality">
+                <svg viewBox="0 0 100 100">
+                    <circle class="bg" cx="50" cy="50" r="40" />
+                    <circle class="progress" cx="50" cy="50" r="40" />
+                </svg>
+                <p>1.0</p>
+            </div>
+        </div>
+    </div>
+    <div id="classes-search-container">
+        <h1>Classes</h1>
+        <hr>
+        <div id="filter-container">
+            <img src="assets/filter.png" />
+            <div id="search-tag-container">
+                <p>Search</p>
+                <img src="assets/search.png" />
+            </div>
+            <div class="tag" id="cis">
+                <p>CIS</p>
+            </div>
+            <div class="tag" id="difficult">
+                <p>Difficult</p>
+            </div>
+        </div>
+        <hr />
+        <div id="class-container">
+            <div class="course">
+                <div class="course-title">
+                    <h2>CIS 4480</h2>
+                    <h2>Operating Systems and Design</h2>
+                </div>
+                <div class="course-subtitle">
+                    <p class="required">*required</p>
+                    <p>1 c.u.</p>
+                </div>
+            </div>
+            <hr />
+            <div class="course">
+                <div class="course-title">
+                    <h2>CIS 5190</h2>
+                    <h2>Applied Machine Learning</h2>
+                </div>
+                <div class="course-subtitle">
+                    <p class="fits">*fits well</p>
+                    <p>1 c.u.</p>
+                </div>
+            </div>
+            <hr />
+        </div>
+    </div>
+    <div class="nav">
+        <img id="selected-icon" src="assets/home.png" />
+        <img src="assets/calendar.png" />
+        <img src="assets/profile.png" />
+
+    </div>
+</body>
+
+
+</html>
